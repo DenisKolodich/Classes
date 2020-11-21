@@ -1,7 +1,7 @@
 
 size(360, 360)
 noStroke()
-background(51, 0, 0)
+background(200, 250, 50)
 inside = color(0, 190, 0)
 
 # These statements are equivalent to the statements above.
@@ -13,4 +13,4 @@ with pushMatrix():
     translate(80, 80)
     
     fill(inside)
-    rect(60, 90, 80, 80)
+    rect(50, 50, 110, 110)
